@@ -1,0 +1,8 @@
+image:
+  file: Dockerfile
+tasks:
+- command:
+    cd src &&
+    make &&
+    ./a.out &&
+    cd ..
